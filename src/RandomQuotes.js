@@ -69,7 +69,7 @@ const RandomQuotes = () => {
         <div id="quote-box" style={squareStyle}>
             <p id="text" style={quoteStyle}>"{quotes[randomNumber].quote}"</p>
             <em id="author" className="author">-{quotes[randomNumber].author}</em>
-            <button id="new-quote" className="btn btn-success btn-lg" onClick={changeQuote}>Get inspired!</button>
+            <button id="new-quote" className="btn btn-success btn-lg" onClick={changeQuote}>Get inspired!!</button>
             <div id="social-networks" style={socialNetworksStyle}>
                 <a id="tweet-quote" href={linkToTwitter} target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
                 <a id="tumblr-quote" href={linkToTumblr} target="_blank" rel="noopener noreferrer"><i className="fab fa-tumblr"></i></a>
